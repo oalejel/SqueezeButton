@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38342A774A10DA447C59FAD6 /* Pods_SqueezeButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA925344F31D34F41EA41686 /* Pods_SqueezeButton.framework */; };
 		3D8FBCC020F1806C00DE4EA0 /* SqueezeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8FBCBE20F1806B00DE4EA0 /* SqueezeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D8FBCC720F1808000DE4EA0 /* SqueezeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FBCC620F1808000DE4EA0 /* SqueezeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098DA40C79B19209573A91FC /* Pods-SqueezeButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqueezeButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqueezeButton/Pods-SqueezeButton.debug.xcconfig"; sourceTree = "<group>"; };
 		3D8FBCBB20F1806B00DE4EA0 /* SqueezeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SqueezeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8FBCBE20F1806B00DE4EA0 /* SqueezeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqueezeButton.h; sourceTree = "<group>"; };
 		3D8FBCBF20F1806B00DE4EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8FBCC620F1808000DE4EA0 /* SqueezeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqueezeButton.swift; sourceTree = "<group>"; };
+		94B93EF2CE5AD84E46A4D1A1 /* Pods-SqueezeButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqueezeButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqueezeButton/Pods-SqueezeButton.release.xcconfig"; sourceTree = "<group>"; };
+		DA925344F31D34F41EA41686 /* Pods_SqueezeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqueezeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38342A774A10DA447C59FAD6 /* Pods_SqueezeButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +39,8 @@
 			children = (
 				3D8FBCBD20F1806B00DE4EA0 /* SqueezeButton */,
 				3D8FBCBC20F1806B00DE4EA0 /* Products */,
+				7F58F31AFFCFF7CEB8F65645 /* Pods */,
+				48079B39AD3755490AD9DCED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +62,23 @@
 			path = SqueezeButton;
 			sourceTree = "<group>";
 		};
+		48079B39AD3755490AD9DCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA925344F31D34F41EA41686 /* Pods_SqueezeButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F58F31AFFCFF7CEB8F65645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				098DA40C79B19209573A91FC /* Pods-SqueezeButton.debug.xcconfig */,
+				94B93EF2CE5AD84E46A4D1A1 /* Pods-SqueezeButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -73,6 +97,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D8FBCC320F1806C00DE4EA0 /* Build configuration list for PBXNativeTarget "SqueezeButton" */;
 			buildPhases = (
+				84B2BC55D374C74DAC7A48F8 /* [CP] Check Pods Manifest.lock */,
 				3D8FBCB620F1806B00DE4EA0 /* Sources */,
 				3D8FBCB720F1806B00DE4EA0 /* Frameworks */,
 				3D8FBCB820F1806B00DE4EA0 /* Headers */,
@@ -128,6 +153,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B2BC55D374C74DAC7A48F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SqueezeButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D8FBCB620F1806B00DE4EA0 /* Sources */ = {
@@ -263,6 +309,7 @@
 		};
 		3D8FBCC420F1806C00DE4EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098DA40C79B19209573A91FC /* Pods-SqueezeButton.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -291,6 +338,7 @@
 		};
 		3D8FBCC520F1806C00DE4EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B93EF2CE5AD84E46A4D1A1 /* Pods-SqueezeButton.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
