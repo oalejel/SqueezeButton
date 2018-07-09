@@ -6,7 +6,7 @@ A round-cornered button with shrinking and rescaling response to touch.
 - IBDesignable and IBInspectable
 - Custom Gradient settings with specified colors and angle
 
-![example gif](https://raw.githubusercontent.com/oalejel/SqueezeButton-iOS-Button/master/example.gif)
+![example gif](https://raw.githubusercontent.com/oalejel/SqueezeButton/master/example.gif)
 
 ## CocoaPods
 ```ruby
