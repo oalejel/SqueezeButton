@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = "SqueezeButton is a customizable, animated, rounded-cornered button. Supports IBDesignable."
 
   s.homepage     = "https://github.com/oalejel/SqueezeButton"
-  s.screenshots  = "https://raw.githubusercontent.com/oalejel/SqueezeButton-iOS-Button/master/out.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/oalejel/SqueezeButton/master/example.gif"
 
   s.swift_version = '4.0'
   s.license      = { :type => "MIT", :text => "MIT License
