@@ -19,7 +19,7 @@ import UIKit
  g2?.delaysTouchesBegan = false
  */
 
-@IBDesignable public class SqueezeButton: UIButton {
+@IBDesignable class SqueezeButton: UIButton {
     var completedSqueeze = true
     var pendingOut = false
     @IBInspectable var defaultCornerRadius: CGFloat = 10 {
@@ -52,7 +52,7 @@ import UIKit
         layer.cornerRadius = cornerRadius
     }
     
-    override public func layoutSubviews() {
+    override func layoutSubviews() {
         super.layoutSubviews()
         if !firstLayoutComplete {
             firstLayoutComplete = true
@@ -64,12 +64,12 @@ import UIKit
     }
     
     //react to touches with a press or rescale animation
-    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         press()
     }
     
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         rescaleButton()
     }
