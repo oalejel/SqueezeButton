@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "bf8312e379ddad4c68933856b44a52b4"
+build_time: [1531113502, 19548000]
+inputs:
+  "/Users/omaralejel/Desktop/SqueezeButton/SqueezeButtonPreview/ViewController.swift": [9223372036, 854775807]
+  "/Users/omaralejel/Desktop/SqueezeButton/SqueezeButtonPreview/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/omaralejel/Desktop/SqueezeButton/SqueezeButtonPreview/SqueezeButton.swift": [9223372036, 854775807]

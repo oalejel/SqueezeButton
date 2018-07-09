@@ -39,7 +39,7 @@ SOFTWARE." }
 
   s.source       = { :git => "https://github.com/oalejel/SqueezeButton.git", :tag => "#{s.version}" }
 
-  s.source_files  = "SqueezeButtonPreview/**/*.{swift}"
+  s.source_files  = "SqueezeButtonPreview/**.{swift}"
 
   s.framework  = "UIKit"
 
