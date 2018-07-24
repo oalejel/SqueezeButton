@@ -19,10 +19,10 @@ import UIKit
  g2?.delaysTouchesBegan = false
  */
 
-@IBDesignable public class SqueezeButton: UIButton {
+public class SqueezeButton: UIButton {
     var completedSqueeze = true
     var pendingOut = false
-    @IBInspectable public var defaultCornerRadius: CGFloat = 10 {
+    var defaultCornerRadius: CGFloat = 10 {
         didSet {
             layer.cornerRadius = defaultCornerRadius
         }
