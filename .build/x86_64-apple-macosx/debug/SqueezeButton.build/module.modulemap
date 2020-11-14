@@ -1,0 +1,4 @@
+module SqueezeButton {
+    header "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/SqueezeButton-Swift.h"
+    requires objc
+}

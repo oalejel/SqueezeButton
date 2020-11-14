@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/master.swiftdeps"
+  },
+  "/Users/omaralejel/Documents/Libraries/SqueezeButton/Sources/SqueezeButton/SqueezeButton.swift": {
+    "dependencies": "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/SqueezeButton.d",
+    "object": "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/SqueezeButton.swift.o",
+    "swiftmodule": "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/SqueezeButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/omaralejel/Documents/Libraries/SqueezeButton/.build/x86_64-apple-macosx/debug/SqueezeButton.build/SqueezeButton.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "d77a66dbc08679c54fc0825b67b682c0"
+build_time: [1605394290, 391011000]
+inputs:
+  "/Users/omaralejel/Documents/Libraries/SqueezeButton/Sources/SqueezeButton/SqueezeButton.swift": [1605394275, 584580086]

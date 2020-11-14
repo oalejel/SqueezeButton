@@ -7,6 +7,7 @@
 //  Copyright © 2015 omar alejel. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /* Note: if gesture recognizers are used in your application, you may need to prevent delays on this view's touch recognition.
@@ -128,3 +129,4 @@ public class SqueezeButton: UIButton {
 }
 
 
+#endif

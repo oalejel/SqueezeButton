@@ -1,0 +1,19 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/omaralejel\/Documents\/Libraries\/SqueezeButton\/.build\/x86_64-apple-macosx\/debug\/SqueezeButtonPackageTests.xctest\/Contents\/MacOS\/SqueezeButtonPackageTests",
+      "packageName" : "SqueezeButton",
+      "productName" : "SqueezeButtonPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.SqueezeButton-debug.module" : "SqueezeButton",
+    "C.SqueezeButtonTests-debug.module" : "SqueezeButtonTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
