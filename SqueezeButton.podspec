@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/oalejel/SqueezeButton"
   s.screenshots  = "https://raw.githubusercontent.com/oalejel/SqueezeButton/master/example.gif"
 
-  s.swift_version = '4.0'
+  s.swift_version = '5.1'
   s.license      = { :type => "MIT", :text => "MIT License
 
 
