@@ -39,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DAE453E25608CCB00156CFF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3DE859461C2D790600E9881C /* SqueezeButton.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		3DE859281C2D78E900E9881C = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE859341C2D78E900E9881C /* AppDelegate.swift */,
-				3DE859461C2D790600E9881C /* SqueezeButton.swift */,
+				3DAE453E25608CCB00156CFF /* Source */,
 				3DE859361C2D78E900E9881C /* ViewController.swift */,
 				3D05EABF20AB9C0500C5E384 /* Rectangle.png */,
 				3DE859381C2D78E900E9881C /* Main.storyboard */,
@@ -111,6 +119,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +288,7 @@
 				INFOPLIST_FILE = SqueezeButtonPreview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = omaralejel.SqueezeButtonPreview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -294,6 +304,7 @@
 				INFOPLIST_FILE = SqueezeButtonPreview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = omaralejel.SqueezeButtonPreview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

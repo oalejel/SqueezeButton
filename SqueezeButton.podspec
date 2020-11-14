@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SqueezeButton"
-  s.version      = "0.2.1"
+  s.version      = "2.0"
   s.summary      = "SqueezeButton is a customizable, animated, rounded-cornered button."
   s.description  = "SqueezeButton is a customizable, animated, rounded-cornered button. Supports IBDesignable."
 
@@ -39,7 +39,7 @@ SOFTWARE." }
 
   s.source       = { :git => "https://github.com/oalejel/SqueezeButton.git", :tag => "#{s.version}" }
 
-  s.source_files  = "SqueezeButtonPreview/**.{swift}"
+  s.source_files  = "Source/SqueezeButtonPreview/**.{swift}"
 
   s.framework  = "UIKit"
 
