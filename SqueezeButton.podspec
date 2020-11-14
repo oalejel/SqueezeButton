@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SqueezeButton"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "SqueezeButton is a customizable, animated, rounded-cornered button."
   s.description  = "SqueezeButton is a customizable, animated, rounded-cornered button. Supports IBDesignable."
 
